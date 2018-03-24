@@ -1,0 +1,22 @@
+{
+    "name": "dell/day3006c1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "day3006",
+            "email": "day3006@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+       "psr-4":{
+           "heart\\":"heart",
+           "app\\":"app",
+           "system\\":"system"
+       }
+    }
+
+}
